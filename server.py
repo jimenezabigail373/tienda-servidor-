@@ -16,7 +16,7 @@ from database import inicializar_base_de_datos
 
 # ── Configuracion ──────────────────────────────────────────
 HOST = "0.0.0.0"   # Escucha en todas las interfaces de red
-PORT = 9000
+PORT = int(__import__('os').environ.get("PORT", 9000))
 MAX_CONEXIONES = 10
 BUFFER_SIZE = 65536  # 64 KB por mensaje
 
