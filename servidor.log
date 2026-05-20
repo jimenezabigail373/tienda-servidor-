@@ -1,0 +1,77 @@
+2026-05-17 20:09:34,306 [INFO] Base de datos lista.
+2026-05-17 20:09:34,309 [INFO] Servidor escuchando en 0.0.0.0:9000
+2026-05-17 20:38:40,409 [INFO] Base de datos lista.
+2026-05-17 20:38:40,410 [INFO] Servidor escuchando en 0.0.0.0:9000
+2026-05-17 20:41:43,639 [INFO] Base de datos lista.
+2026-05-17 20:41:43,639 [INFO] Servidor escuchando en 0.0.0.0:9000
+2026-05-17 20:42:13,632 [INFO] Cliente conectado: 127.0.0.1:60262
+2026-05-17 20:42:13,632 [INFO] Hilos activos: 1
+2026-05-17 20:42:13,632 [INFO] [127.0.0.1] Accion: GET_CATALOG
+2026-05-17 20:42:13,645 [INFO] Conexion cerrada: 127.0.0.1:60262
+2026-05-19 17:18:03,207 [INFO] Base de datos lista.
+2026-05-19 17:18:03,208 [INFO] Servidor escuchando en 0.0.0.0:9000
+2026-05-19 17:35:31,002 [INFO] Base de datos lista.
+2026-05-19 17:35:31,003 [INFO] Servidor escuchando en 0.0.0.0:9000
+2026-05-19 21:58:22,661 [INFO] Base de datos lista.
+2026-05-19 21:58:22,798 [INFO] Servidor escuchando en 0.0.0.0:9000
+2026-05-19 21:59:02,803 [INFO] Cliente conectado: 192.168.0.6:55714
+2026-05-19 21:59:02,803 [INFO] Hilos activos: 1
+2026-05-19 21:59:02,914 [INFO] [192.168.0.6] Accion: REGISTER
+2026-05-19 21:59:21,736 [INFO] [192.168.0.6] Accion: LOGIN
+2026-05-19 21:59:58,364 [INFO] [192.168.0.6] Accion: LOGIN
+2026-05-19 22:00:34,375 [INFO] [192.168.0.6] Accion: LOGIN
+2026-05-19 22:01:30,384 [INFO] Cliente ('192.168.0.6', 55714) cerro la conexion abruptamente
+2026-05-19 22:01:30,390 [INFO] Conexion cerrada: 192.168.0.6:55714
+2026-05-19 22:02:57,096 [INFO] Cliente conectado: 192.168.0.6:42446
+2026-05-19 22:02:57,097 [INFO] Hilos activos: 1
+2026-05-19 22:02:57,142 [INFO] [192.168.0.6] Accion: LOGIN
+2026-05-19 22:02:57,480 [INFO] [192.168.0.6] Accion: GET_CATALOG
+2026-05-19 22:04:04,828 [INFO] Cliente ('192.168.0.6', 42446) cerro la conexion abruptamente
+2026-05-19 22:04:04,829 [INFO] Conexion cerrada: 192.168.0.6:42446
+2026-05-19 22:17:21,836 [INFO] Cliente conectado: 192.168.0.6:56338
+2026-05-19 22:17:21,837 [INFO] Hilos activos: 1
+2026-05-19 22:17:21,839 [INFO] [192.168.0.6] Accion: LOGIN
+2026-05-19 22:17:22,315 [INFO] [192.168.0.6] Accion: GET_CATALOG
+2026-05-19 22:17:44,682 [INFO] Cliente ('192.168.0.6', 56338) cerro la conexion abruptamente
+2026-05-19 22:17:44,683 [INFO] Conexion cerrada: 192.168.0.6:56338
+2026-05-19 22:39:07,949 [INFO] Hilos activos: 1
+2026-05-19 22:39:07,932 [INFO] Cliente conectado: 192.168.0.6:43900
+2026-05-19 22:39:08,034 [INFO] [192.168.0.6] Accion: LOGIN
+2026-05-19 22:39:08,782 [INFO] Hilos activos: 2
+2026-05-19 22:39:08,782 [INFO] Cliente conectado: 192.168.0.6:43902
+2026-05-19 22:39:08,799 [INFO] [192.168.0.6] Accion: GET_CATALOG
+2026-05-19 22:41:30,171 [INFO] Cliente conectado: 192.168.0.6:56072
+2026-05-19 22:41:30,226 [INFO] Hilos activos: 3
+2026-05-19 22:41:30,237 [INFO] [192.168.0.6] Accion: PURCHASE
+2026-05-19 22:41:36,417 [INFO] Proforma enviada a Jimenezabigail373@gmail.com
+2026-05-19 22:41:36,431 [INFO] Correo enviado a Jimenezabigail373@gmail.com para orden ORD-20260519224130
+2026-05-19 22:41:51,503 [INFO] Cliente ('192.168.0.6', 56072) cerro la conexion abruptamente
+2026-05-19 22:41:51,503 [INFO] Cliente ('192.168.0.6', 43900) cerro la conexion abruptamente
+2026-05-19 22:41:51,504 [INFO] Conexion cerrada: 192.168.0.6:56072
+2026-05-19 22:41:51,504 [INFO] Cliente ('192.168.0.6', 43902) cerro la conexion abruptamente
+2026-05-19 22:41:51,504 [INFO] Conexion cerrada: 192.168.0.6:43900
+2026-05-19 22:41:51,505 [INFO] Conexion cerrada: 192.168.0.6:43902
+2026-05-19 23:00:08,521 [INFO] Hilos activos: 1
+2026-05-19 23:00:08,519 [INFO] Cliente conectado: 192.168.0.6:55310
+2026-05-19 23:00:08,585 [INFO] [192.168.0.6] Accion: LOGIN
+2026-05-19 23:00:09,023 [INFO] Cliente conectado: 192.168.0.6:55324
+2026-05-19 23:00:09,024 [INFO] Hilos activos: 2
+2026-05-19 23:00:09,061 [INFO] [192.168.0.6] Accion: GET_CATALOG
+2026-05-19 23:00:45,244 [INFO] Cliente conectado: 192.168.0.6:44022
+2026-05-19 23:00:45,244 [INFO] Hilos activos: 3
+2026-05-19 23:00:45,276 [INFO] [192.168.0.6] Accion: PURCHASE
+2026-05-19 23:00:49,400 [INFO] Proforma enviada a Jimenezabigail373@gmail.com
+2026-05-19 23:00:49,401 [INFO] Correo enviado a Jimenezabigail373@gmail.com para orden ORD-20260519230045
+2026-05-19 23:01:05,151 [INFO] Cliente ('192.168.0.6', 55310) cerro la conexion abruptamente
+2026-05-19 23:01:05,152 [INFO] Cliente ('192.168.0.6', 44022) cerro la conexion abruptamente
+2026-05-19 23:01:05,153 [INFO] Cliente ('192.168.0.6', 55324) cerro la conexion abruptamente
+2026-05-19 23:01:05,153 [INFO] Conexion cerrada: 192.168.0.6:55310
+2026-05-19 23:01:05,154 [INFO] Conexion cerrada: 192.168.0.6:44022
+2026-05-19 23:01:05,155 [INFO] Conexion cerrada: 192.168.0.6:55324
+2026-05-19 23:05:18,967 [INFO] Cliente conectado: 192.168.0.6:52956
+2026-05-19 23:05:18,967 [INFO] Hilos activos: 1
+2026-05-19 23:05:18,989 [INFO] [192.168.0.6] Accion: PURCHASE
+2026-05-19 23:05:22,182 [INFO] Proforma enviada a Jimenezabigail373@gmail.com
+2026-05-19 23:05:22,183 [INFO] Correo enviado a Jimenezabigail373@gmail.com para orden ORD-20260519230518
+2026-05-19 23:05:46,458 [INFO] Cliente ('192.168.0.6', 52956) cerro la conexion abruptamente
+2026-05-19 23:05:46,458 [INFO] Conexion cerrada: 192.168.0.6:52956
