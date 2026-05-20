@@ -21,7 +21,7 @@ from datetime import datetime
 log = logging.getLogger(__name__)
 
 # ── CONFIGURA ESTOS DATOS ──────────────────────────────────
-
+import os
 EMAIL_REMITENTE = os.environ.get("EMAIL_REMITENTE", "morenoabi250401@gmail.com")
 EMAIL_PASSWORD  = os.environ.get("EMAIL_PASSWORD", "tkrr kmwj psrq ywve")   # <-- Contrasena de aplicacion
 EMAIL_NOMBRE    = "Tienda Online"
