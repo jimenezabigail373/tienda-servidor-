@@ -26,7 +26,7 @@ EMAIL_REMITENTE = os.environ.get("EMAIL_REMITENTE", "morenoabi250401@gmail.com")
 EMAIL_PASSWORD  = os.environ.get("EMAIL_PASSWORD", "tkrr kmwj psrq ywve")   # <-- Contrasena de aplicacion
 EMAIL_NOMBRE    = "Tienda Online"
 SMTP_HOST       = "smtp.gmail.com"
-SMTP_PORT       =  465
+SMTP_PORT       =  587
 
 
 def enviar_proforma_correo(
@@ -108,7 +108,8 @@ def enviar_proforma_correo(
     msg.attach(adjunto)
 
     # ── Enviar via SMTP ────────────────────────────────────
-    with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as smtp:
-    smtp.login(EMAIL_REMITENTE, EMAIL_PASSWORD)
-    smtp.sendmail(EMAIL_REMITENTE, destinatario, msg.as_string())
-    log.info(f"Proforma enviada a {destinatario}")
+    with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as smtp:
+        smtp.ehlo()
+        smtp.starttls()
+        smtp.login(EMAIL_REMITENTE, EMAIL_PASSWORD)
+        smtp.sendmail(EMAIL_REMITENTE, destinatario, msg.as_string())
